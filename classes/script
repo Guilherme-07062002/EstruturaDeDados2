@@ -1,0 +1,8 @@
+#!/bin/bash
+
+g++ maior.cpp
+g++ main.cpp
+
+g++ maior.o main.o -o program
+
+./program
